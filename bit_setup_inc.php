@@ -12,6 +12,6 @@ if( $gBitSystem->isPackageActive( 'filevault' ) ) {
 	define('FILEVAULT_CONTENT_TYPE_GUID',     'filevault' );
 	define('FILEVAULTFILE_CONTENT_TYPE_GUID', 'filevaultfile' );
 
-	include_once( FILEVAULT_PKG_PATH.'FileVault.php' );
+	// apparently missing. not sure where it went include_once( FILEVAULT_PKG_PATH.'FileVault.php' );
 }
 ?>
